@@ -25,7 +25,7 @@ export default function Home() {
       className={`${backgroundColor} h-screen w-full flex flex-col font-poppins overflow-hidden`}
     >
       <Navbar selectedFlavor={selectedFlavor} setSelectedFlavor={setSelectedFlavor} />
-      <Hero flavour={selectedFlavor} />
+      <Hero selectedFlavor={selectedFlavor} setSelectedFlavor={setSelectedFlavor}/>
     </div>
   );
 }

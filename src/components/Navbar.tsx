@@ -26,7 +26,7 @@ const Navbar = ({ selectedFlavor, setSelectedFlavor }: Props) => {
           <li>Contact</li>
         </ul>
       </div>
-      <div className="border-2 border-white rounded-2xl mr-6 p-2">
+      <div className="border-2 border-white rounded-md mr-6 p-2">
         <select defaultValue="" onChange={handleSelectChange} className="bg-transparent outline-none">
           <option value="" disabled>
             Order Your Ice-cream
